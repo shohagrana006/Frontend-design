@@ -1,0 +1,978 @@
+@media (min-width: 1200px) {}
+
+@media (min-width: 991px) and (max-width:1199px) {
+
+    /* banner part start*/
+    .banner-txt {
+        padding: 220px 0 95px 0;
+    }
+
+    .banner-txt h2 {
+        padding-bottom: 2px;
+    }
+
+    #typed,
+    #typed2 {
+        font-size: 54px;
+    }
+
+    .typed-cursor {
+        font-size: 52px;
+    }
+
+    #banner-part i {
+        left: 87%;
+    }
+
+    /* banner part end*/
+
+    /* about part start*/
+    .about-img {
+        margin-top: -150px;
+        width: 100%;
+    }
+
+    .about-img::before,
+    .about-img::after {
+        display: none;
+    }
+
+    /* about part end*/
+
+    /* testimonial part start */
+
+    .test-img {
+        width: 82%;
+    }
+
+    /* testimonial part start */
+
+    /* contact part start */
+    #contact-part {
+        padding: 92px 0;
+    }
+
+    /* contact part start */
+
+    /* ======= about page start ======= */
+    .abut-img-in {
+        margin-top: 8px;
+    }
+
+    /* ======= about page end ======= */
+
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+
+    /* header part start*/
+    .full-menu {
+        position: fixed;
+        background-color: #222222;
+    }
+
+    .full-menu .navbar-brand {
+        font-size: 36px;
+        letter-spacing: 2px;
+        padding: 0 0 0 15px;
+    }
+
+    .navbar-toggler {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 6px 12px;
+        margin: 8px 15px 7px 0;
+        outline: 0;
+    }
+
+    .navbar-toggler:focus {
+        outline: 0;
+        color: #fff !important;
+    }
+
+    .full-menu .navbar-nav .nav-link {
+        padding: 10px 0;
+        text-align: center;
+        border-bottom: 1px solid #777;
+    }
+
+
+    .full-menu .navbar-nav .nav-link:hover,
+    .full-menu .navbar-nav .active-menu {
+        background-color: #111111;
+    }
+
+    .full-menu .navbar-nav .nav-link::before {
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 4px;
+    }
+
+    .full-menu .navbar-nav .nav-link::after {
+        height: 0;
+        width: 0;
+    }
+
+    .full-menu .navbar-nav .nav-link:hover::before,
+    .full-menu .navbar-nav .nav-link:hover::after,
+    .full-menu .navbar-nav .active-menu::before {
+        width: 4px;
+        height: 47px;
+        transform: rotate(0deg);
+    }
+
+    .contact-btn {
+        text-align: center;
+        border-bottom: 1px solid #777;
+    }
+
+    .contact-btn a {
+        padding: 10px 0;
+    }
+
+    /* header part end*/
+
+    /* banner part start*/
+    .banner-txt {
+        padding: 200px 0 100px 0;
+        text-align: center;
+    }
+
+    .banner-txt h2 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    #typed,
+    #typed2 {
+        font-size: 50px;
+    }
+
+    .typed-cursor {
+        font-size: 48px;
+    }
+
+    .banner-txt p {
+        padding-top: 20px;
+        padding-right: 0;
+    }
+
+    .banner-txt a {
+        font-size: 18px;
+    }
+
+    #banner-part i {
+        display: none !important;
+    }
+
+    /* banner part end*/
+
+    /* about part start*/
+    #about-part {
+        margin-top: 80px;
+    }
+
+    .about-img {
+        margin: 0 auto;
+        width: 55%;
+    }
+
+    .about-img::before,
+    .about-img::after {
+        display: none;
+    }
+
+    .tittle h2 {
+        font-size: 28px;
+        margin-top: 15px;
+    }
+
+    .tittle h2::before {
+        height: 35px;
+        width: 35px;
+    }
+
+    .tittle h2::after {
+        top: 22px;
+        width: 35px;
+    }
+
+    .tittle p.abt-pd {
+        padding: 10px 0;
+    }
+
+    .single-progressbar {
+        margin-bottom: -10px;
+    }
+
+    .about-txt a,
+    .view-all a {
+        font-size: 18px;
+    }
+
+    /* about part end*/
+
+    /* counter part start */
+    #counter-part {
+        padding: 52px 0;
+    }
+
+    .count-txt {
+        padding: 20px 0;
+    }
+
+    .count-txt h3::after {
+        left: 36%;
+    }
+
+    .count-txt p {
+        letter-spacing: 0px;
+    }
+
+    /* counter part end */
+
+    /* work part end */
+    #work-part {
+        margin-top: 72px;
+    }
+
+    .tittle2 h2 {
+        margin-top: 0;
+    }
+
+    .work-btn {
+        margin: 36px 0 45px 0;
+    }
+
+    /* work part end */
+
+    /* testimonial part start */
+    #testimonial-part {
+        margin-top: 80px;
+        padding: 52px 0;
+    }
+
+    .test-img {
+        width: 40%;
+    }
+
+    .test-txt h3 {
+        font-size: 28px;
+        letter-spacing: 1px;
+        margin-top: 15px;
+    }
+
+    .test-txt h4 {
+        padding: 4px 0 10px 0;
+    }
+
+    .test-txt .social-icon a {
+        margin-bottom: 7px;
+    }
+
+    .bor-btm {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .testimonial-slider i.fa-angle-left,
+    .testimonial-slider i.fa-angle-right {
+        display: none !important;
+    }
+
+    .quote-icon i {
+        top: 5px;
+        font-size: 34px;
+    }
+
+    /* testimonial part start */
+
+    /* clint part start*/
+    #clint-part {
+        margin-top: 80px;
+    }
+
+    .clint-slider {
+        padding: 30px 0;
+    }
+
+    /* clint part end*/
+
+    /* contact part start*/
+    #contact-part {
+        margin-top: 80px;
+        padding: 38px 0 60px 0;
+    }
+
+    .tittle4 h2 {
+        padding-bottom: 18px;
+    }
+
+    .info-txt p {
+        padding: 7px 0 8px 0;
+    }
+
+    #contact-part .form {
+        margin-top: 22px;
+    }
+
+    .form .form-control {
+        margin-bottom: 15px;
+    }
+
+    .form button {
+        font-size: 18px;
+    }
+
+    /* contact part end*/
+
+    /* ======= testimonial page start ======= */
+    #bread-full {
+        padding: 160px 0 80px 0;
+    }
+
+    .inner-hed h2 {
+        font-size: 30px;
+    }
+
+    .inner-testimonial-part {
+        padding-top: 39px !important;
+    }
+
+    .tittle3 h3 {
+        padding-bottom: 48px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* ======= testimonial page end ======= */
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+
+    /* header part start*/
+    .full-menu {
+        position: fixed;
+        background-color: #222222;
+    }
+
+    .full-menu .navbar-brand {
+        font-size: 32px;
+        letter-spacing: 1px;
+        padding: 0 0 0 15px;
+    }
+
+    .navbar-toggler {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 6px 12px;
+        margin: 8px 15px 7px 0;
+        outline: 0;
+    }
+
+    .navbar-toggler:focus {
+        outline: 0;
+        color: #fff !important;
+    }
+
+    .full-menu .navbar-nav .nav-link {
+        padding: 10px 0;
+        text-align: center;
+        border-bottom: 1px solid #777;
+    }
+
+
+    .full-menu .navbar-nav .nav-link:hover,
+    .full-menu .navbar-nav .active-menu {
+        background-color: #111111;
+    }
+
+    .full-menu .navbar-nav .nav-link::before {
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 4px;
+    }
+
+    .full-menu .navbar-nav .nav-link::after {
+        height: 0;
+        width: 0;
+    }
+
+    .full-menu .navbar-nav .nav-link:hover::before,
+    .full-menu .navbar-nav .nav-link:hover::after,
+    .full-menu .navbar-nav .active-menu::before {
+        width: 4px;
+        height: 47px;
+        transform: rotate(0deg);
+    }
+
+    .contact-btn {
+        text-align: center;
+        border-bottom: 1px solid #777;
+    }
+
+    .contact-btn a {
+        padding: 10px 0;
+    }
+
+    /* header part end*/
+
+    /* banner part start*/
+    .banner-txt {
+        padding: 200px 0 100px 0;
+        text-align: center;
+    }
+
+    .banner-txt h2 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    #typed,
+    #typed2 {
+        font-size: 40px;
+    }
+
+    .typed-cursor {
+        font-size: 38px;
+    }
+
+    .banner-txt p {
+        padding-top: 20px;
+        padding-right: 0;
+    }
+
+    .banner-txt a {
+        font-size: 16px;
+        padding: 12px 16px;
+    }
+
+    #banner-part i {
+        display: none !important;
+    }
+
+    /* banner part end*/
+
+    /* about part start*/
+    #about-part {
+        margin-top: 80px;
+    }
+
+    .about-img {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .about-img::before,
+    .about-img::after {
+        display: none;
+    }
+
+    .video-icon i {
+        font-size: 50px;
+    }
+
+    .tittle h2 {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+
+    .tittle h2::before {
+        height: 35px;
+        width: 35px;
+    }
+
+    .tittle h2::after {
+        top: 22px;
+        width: 35px;
+    }
+
+    .tittle p.abt-pd {
+        padding: 10px 0;
+    }
+
+    .single-progressbar {
+        margin-bottom: -10px;
+    }
+
+    .about-txt a,
+    .view-all a {
+        font-size: 18px;
+        padding: 12px 16px;
+    }
+
+    /* about part end*/
+
+    /* counter part start */
+    #counter-part {
+        padding: 32px 0;
+    }
+
+    .count-txt {
+        padding: 20px 0;
+    }
+
+    .count-txt h3::after {
+        left: 32%;
+    }
+
+    .count-txt p {
+        letter-spacing: 0px;
+    }
+
+    /* counter part end */
+
+    /* work part end */
+    #work-part {
+        margin-top: 72px;
+    }
+
+    .tittle2 h2 {
+        margin-top: 0;
+    }
+
+    .work-btn {
+        margin: 36px 0 45px 0;
+    }
+
+    /* work part end */
+
+    /* testimonial part start */
+    #testimonial-part {
+        margin-top: 80px;
+        padding: 52px 0;
+    }
+
+    .test-img {
+        width: 50%;
+    }
+
+    .test-txt h3 {
+        font-size: 24px;
+        letter-spacing: 1px;
+        margin-top: 15px;
+    }
+
+    .test-txt h4 {
+        padding: 4px 0 10px 0;
+    }
+
+    .test-txt .social-icon a {
+        margin-bottom: 7px;
+    }
+
+    .test-txt p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .test-txt p.mtop {
+        display: none;
+    }
+
+    .testimonial-slider i.fa-angle-left,
+    .testimonial-slider i.fa-angle-right {
+        display: none !important;
+    }
+
+    .quote-icon i {
+        top: 5px;
+        font-size: 24px;
+    }
+
+    /* testimonial part start */
+
+    /* clint part start*/
+    #clint-part {
+        margin-top: 80px;
+    }
+
+    .clint-slider {
+        padding: 30px 0;
+    }
+
+    /* clint part end*/
+
+    /* contact part start*/
+    #contact-part {
+        margin-top: 80px;
+        padding: 38px 0 60px 0;
+    }
+
+    .tittle4 h2 {
+        padding-bottom: 18px;
+    }
+
+    .info-txt h4 {
+        font-size: 18px;
+    }
+
+    .info-txt p {
+        padding: 7px 0 8px 0;
+    }
+
+    .addrs-txt p {
+        font-size: 13px;
+    }
+
+    #contact-part .form {
+        margin-top: 22px;
+    }
+
+    .form .form-control {
+        margin-bottom: 15px;
+    }
+
+    .form button {
+        font-size: 16px;
+        padding: 12px 16px;
+    }
+
+    /* contact part end*/
+
+    /* ======= testimonial page start ======= */
+    #bread-full {
+        padding: 160px 0 80px 0;
+    }
+
+    .inner-hed h2 {
+        font-size: 26px;
+    }
+
+    .inner-testimonial-part {
+        padding-top: 39px !important;
+    }
+
+    .tittle3 h3 {
+        padding-bottom: 48px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    /* ======= testimonial page end ======= */
+}
+
+@media (max-width:575px) {
+
+    /* header part start*/
+    .full-menu {
+        position: fixed;
+        background-color: #222222;
+    }
+
+    .full-menu .navbar-brand {
+        font-size: 30px;
+        letter-spacing: 1px;
+        padding: 0 0 0 15px;
+    }
+
+    .navbar-toggler {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 6px 12px;
+        margin: 8px 15px 7px 0;
+        outline: 0;
+    }
+
+    .navbar-toggler:focus {
+        outline: 0;
+        color: #fff !important;
+    }
+
+    .full-menu .navbar-nav .nav-link {
+        padding: 10px 0;
+        text-align: center;
+        border-bottom: 1px solid #777;
+    }
+
+
+    .full-menu .navbar-nav .nav-link:hover,
+    .full-menu .navbar-nav .active-menu {
+        background-color: #111111;
+    }
+
+    .full-menu .navbar-nav .nav-link::before {
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 4px;
+    }
+
+    .full-menu .navbar-nav .nav-link::after {
+        height: 0;
+        width: 0;
+    }
+
+    .full-menu .navbar-nav .nav-link:hover::before,
+    .full-menu .navbar-nav .nav-link:hover::after,
+    .full-menu .navbar-nav .active-menu::before {
+        width: 4px;
+        height: 47px;
+        transform: rotate(0deg);
+    }
+
+    .contact-btn {
+        text-align: center;
+        border-bottom: 1px solid #777;
+    }
+
+    .contact-btn a {
+        padding: 10px 0;
+    }
+
+    /* header part end*/
+
+    /* banner part start*/
+    .banner-txt {
+        padding: 180px 0 80px 0;
+        text-align: center;
+    }
+
+    .banner-txt h2 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    #typed,
+    #typed2 {
+        font-size: 28px;
+    }
+
+    .typed-cursor {
+        font-size: 28px;
+    }
+
+    .banner-txt p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 20px;
+        padding-right: 0;
+    }
+
+    .banner-txt a {
+        font-size: 16px;
+        padding: 12px 16px;
+    }
+
+    #banner-part i {
+        display: none !important;
+    }
+
+    /* banner part end*/
+
+    /* about part start*/
+    #about-part {
+        margin-top: 80px;
+    }
+
+    .about-img {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .about-img::before,
+    .about-img::after {
+        display: none;
+    }
+
+    .video-icon i {
+        font-size: 50px;
+    }
+
+    .tittle h2 {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+
+    .tittle h2::before {
+        height: 35px;
+        width: 35px;
+    }
+
+    .tittle h2::after {
+        top: 22px;
+        width: 35px;
+    }
+
+    .tittle p.abt-pd {
+        padding: 10px 0;
+    }
+
+    .single-progressbar {
+        margin-bottom: -10px;
+    }
+
+    .single-progressbar h4 {
+        font-size: 13px;
+    }
+
+    .about-txt a,
+    .view-all a {
+        font-size: 16px;
+        padding: 12px 16px;
+    }
+
+    /* about part end*/
+
+    /* counter part start */
+    #counter-part {
+        padding: 32px 0;
+    }
+
+    .count-txt {
+        padding: 20px 0;
+    }
+
+    .count-txt i {
+        font-size: 30px;
+    }
+
+    .count-txt h3 {
+        font-size: 24px;
+        padding: 5px 0 13px 0;
+        letter-spacing: 2px;
+    }
+
+    .count-txt h3::after {
+        left: 38%;
+    }
+
+    .count-txt p {
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+
+    /* counter part end */
+
+    /* work part end */
+    #work-part {
+        margin-top: 72px;
+    }
+
+    .tittle2 h2 {
+        margin-top: 0;
+    }
+
+    .work-btn {
+        margin: 36px 0 45px 0;
+    }
+
+    /* work part end */
+
+    /* testimonial part start */
+    #testimonial-part {
+        margin-top: 80px;
+        padding: 52px 0;
+    }
+
+    .test-img {
+        width: 50%;
+    }
+
+    .test-txt h3 {
+        font-size: 24px;
+        letter-spacing: 1px;
+        margin-top: 15px;
+    }
+
+    .test-txt h4 {
+        padding: 4px 0 10px 0;
+    }
+
+    .test-txt .social-icon a {
+        margin-bottom: 7px;
+    }
+
+    .test-txt p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .test-txt p.mtop {
+        display: none;
+    }
+
+    .testimonial-slider i.fa-angle-left,
+    .testimonial-slider i.fa-angle-right {
+        display: none !important;
+    }
+
+    .quote-icon i {
+        top: 5px;
+        font-size: 24px;
+    }
+
+    /* testimonial part start */
+
+    /* clint part start*/
+    #clint-part {
+        margin-top: 80px;
+    }
+
+    .clint-slider {
+        padding: 30px 0;
+    }
+
+    /* clint part end*/
+
+    /* contact part start*/
+    #contact-part {
+        margin-top: 80px;
+        padding: 38px 0 60px 0;
+    }
+
+    .tittle4 h2 {
+        padding-bottom: 18px;
+    }
+
+    .info-txt h4 {
+        font-size: 18px;
+    }
+
+    .info-txt p {
+        padding: 7px 0 8px 0;
+    }
+
+    .addrs-txt p {
+        font-size: 13px;
+    }
+
+    #contact-part .form {
+        margin-top: 22px;
+    }
+
+    .form .form-control {
+        margin-bottom: 15px;
+    }
+
+    .form button {
+        font-size: 16px;
+        padding: 12px 16px;
+    }
+
+    /* contact part end*/
+
+    /* ======= testimonial page start ======= */
+    #bread-full {
+        padding: 160px 0 80px 0;
+    }
+
+    .inner-hed h2 {
+        font-size: 26px;
+    }
+
+    .inner-testimonial-part {
+        padding-top: 39px !important;
+    }
+
+    .tittle3 h3 {
+        padding-bottom: 48px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    /* ======= testimonial page end ======= */
+
+}
